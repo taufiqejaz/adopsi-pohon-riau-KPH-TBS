@@ -11,7 +11,7 @@ Beberapa hal yang belum lengkap:
 ![Preview](preview.png)
 
 
-Link Map: https://taufiqejaz.github.io/adopsi-pohon-riau-TBS/
+Link Map: https://taufiqejaz.github.io/adopsi-pohon-riau-KPH-TBS/
 
 
 Template from by Ilya Ilyankou and Jack Dougherty. Learn how to create your own copy and see related Leaflet map templates in our book, *Hands-On Data Visualization*: https://handsondataviz.org/leaflet.html
