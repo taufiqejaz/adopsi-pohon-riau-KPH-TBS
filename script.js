@@ -165,7 +165,7 @@ var updateSidebar = function(marker) {
           var a = $('<a/>', {
             href: d[idx],
             'data-lightbox': 'gallery',
-            //'data-title': ( d[idx + 'Caption'] + ' ' + source )  || '',
+            'data-title': ( d[idx + 'Caption'] + ' ' + source )  || '',
             'data-alt': d.kode_pohon,
             'class': i === 1 ? '' : 'dn'
           });
