@@ -430,7 +430,7 @@ function onEachFeature(feature, layer) {
   });
   map.addLayer(layer_BatasKawasan);
 
-  
+  /*
 //Get "kabupat" from Geojsonfile for area information when hovered
 var info = L.control();
 info.onAdd = function (map) {
@@ -442,11 +442,11 @@ info.onAdd = function (map) {
 // method that we will use to update the control based on feature properties passed
 info.update = function (props) {
    this._div.innerHTML = '<h4>Daerah</h4>' + (props ?
-      props.kabupat // <- CHANGE INTO ANOTHER LOCATION INFORMATION
+      props.nama_kph // <- CHANGE INTO ANOTHER LOCATION INFORMATION
       : '');
 };
 info.addTo(map);
-
+*/
   //group basemaps
   basemaps= {
     "Peta Dasar (OSM Standard)":layer_OSMStandard_0,
