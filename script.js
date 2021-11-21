@@ -251,7 +251,7 @@ var addMarkers = function(data) {
     groups[g].addTo(map);
   }
   
-  L.control.layers({}, groups, {collapsed: true, position: 'bottomright'}).addTo(map);
+  L.control.layers({}, groups, {collapsed: true, position: 'topright'}).addTo(map);
   //$('.leaflet-control-layers-overlays').prepend('<h3 class="mt0 mb1 f5 black-30">Legend</h3>');
 
   // If name in hash, activate it
@@ -430,7 +430,7 @@ function onEachFeature(feature, layer) {
   });
   map.addLayer(layer_BatasKawasan);
 
-  /*
+/*
 //Get "kabupat" from Geojsonfile for area information when hovered
 var info = L.control();
 info.onAdd = function (map) {
@@ -442,7 +442,7 @@ info.onAdd = function (map) {
 // method that we will use to update the control based on feature properties passed
 info.update = function (props) {
    this._div.innerHTML = '<h4>Daerah</h4>' + (props ?
-      props.nama_kph // <- CHANGE INTO ANOTHER LOCATION INFORMATION
+      props.kabupat // <- CHANGE INTO ANOTHER LOCATION INFORMATION
       : '');
 };
 info.addTo(map);
